@@ -24,8 +24,6 @@ O projeto utiliza quatro tabelas:
 * Pedidos
 * Categorias
 
-SQL: https://github.com/ribruno98/SQL-Ecommerce-Analysis/blob/7c02125eb744a741a275831cf4d6e2365960ffb1/database.sql
-
 ## Perguntas de Negócio Respondidas
 
 1. Quais foram os produtos comprados por cada cliente?
@@ -59,9 +57,9 @@ SQL: queries.sql
 
 sql-ecommerce-analysis
 
-1. README.md
+1. [README.md]
 2. [database.sql](https://github.com/ribruno98/SQL-Ecommerce-Analysis/blob/7c02125eb744a741a275831cf4d6e2365960ffb1/database.sql)
-3. queries.sql
+3. [queries.sql]
 
 
 ## O que Aprendi
