@@ -1,4 +1,3 @@
-``` sql
 CREATE TABLE categorias (
     categoria_id INTEGER,
     categoria_nome TEXT
@@ -22,4 +21,3 @@ CREATE TABLE pedidos (
     produto_id INTEGER,
     quantidade INTEGER
 );
-```
