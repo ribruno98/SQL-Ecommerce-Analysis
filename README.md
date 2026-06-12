@@ -41,6 +41,8 @@ SQL: https://github.com/ribruno98/SQL-Ecommerce-Analysis/blob/7c02125eb744a741a2
 11. Qual categoria vendeu mais produtos?
 12. Qual categoria gerou mais faturação?
 
+SQL: https://github.com/ribruno98/SQL-Ecommerce-Analysis/blob/afaf2f5e0681b3f3b5a470d5b11fb326a625cda7/queries.sql
+
 ## Ferramentas Utilizadas
 
 * SQLite
@@ -61,14 +63,12 @@ sql-ecommerce-analysis
 │
 ├── README.md
 ├── database.sql
-├── queries.sql
-└── screenshots/
+└── queries.sql
 ```
 
 ## O que Aprendi
 
 * Relacionar múltiplas tabelas através de JOINs.
 * Utilizar Subqueries para análises avançadas.
-* Aplicar CTEs para melhorar a organização das consultas.
 * Transformar perguntas de negócio em consultas SQL.
 * Trabalhar com métricas agregadas para apoio à decisão.
