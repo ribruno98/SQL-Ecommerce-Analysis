@@ -1,4 +1,6 @@
+-- =====================================
 -- 1. Quais foram os produtos comprados por cada cliente?
+-- =====================================
 
 SELECT nome, produto_nome
 FROM clientes c
