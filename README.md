@@ -12,7 +12,6 @@ Este projeto foi desenvolvido para responder a questões de negócio através da
 * GROUP BY
 * HAVING
 * Subqueries
-* CTEs
 * Business Analysis
 * Data Modeling
 
