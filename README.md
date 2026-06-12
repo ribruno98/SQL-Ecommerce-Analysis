@@ -57,7 +57,7 @@ SQL: queries.sql
 
 sql-ecommerce-analysis
 
-1. [README.md]
+1. [README.md](https://github.com/ribruno98/SQL-Ecommerce-Analysis/blob/ecc681c39bbfd3886199b3f4a23fba93d1863a1e/README.md)
 2. [database.sql](https://github.com/ribruno98/SQL-Ecommerce-Analysis/blob/7c02125eb744a741a275831cf4d6e2365960ffb1/database.sql)
 3. [queries.sql]
 
