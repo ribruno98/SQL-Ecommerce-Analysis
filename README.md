@@ -61,7 +61,7 @@ SQL: queries.sql
 sql-ecommerce-analysis
 │
 ├── README.md
-├── database.sql(https://github.com/ribruno98/SQL-Ecommerce-Analysis/blob/7c02125eb744a741a275831cf4d6e2365960ffb1/database.sql)
+├── [database.sql](https://github.com/ribruno98/SQL-Ecommerce-Analysis/blob/7c02125eb744a741a275831cf4d6e2365960ffb1/database.sql)
 └── queries.sql
 ```
 
