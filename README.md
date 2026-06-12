@@ -41,8 +41,7 @@ SQL: https://github.com/ribruno98/SQL-Ecommerce-Analysis/blob/7c02125eb744a741a2
 11. Qual categoria vendeu mais produtos?
 12. Qual categoria gerou mais faturação?
 
-SQL: https://github.com/ribruno98/SQL-Ecommerce-Analysis/blob/afaf2f5e0681b3f3b5a470d5b11fb326a625cda7/queries.sql
-
+SQL: queries.sql
 ## Ferramentas Utilizadas
 
 * SQLite
@@ -62,7 +61,7 @@ SQL: https://github.com/ribruno98/SQL-Ecommerce-Analysis/blob/afaf2f5e0681b3f3b5
 sql-ecommerce-analysis
 │
 ├── README.md
-├── database.sql
+├── database.sql(https://github.com/ribruno98/SQL-Ecommerce-Analysis/blob/7c02125eb744a741a275831cf4d6e2365960ffb1/database.sql)
 └── queries.sql
 ```
 
