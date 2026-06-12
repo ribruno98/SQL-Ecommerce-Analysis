@@ -1,4 +1,4 @@
-1. Quais foram os produtos comprados por cada cliente?
+-- 1. Quais foram os produtos comprados por cada cliente?
 
 SELECT nome, produto_nome
 FROM clientes c
@@ -7,7 +7,7 @@ ON p.cliente_id = c.cliente_id
 INNER JOIN produtos pr
 ON pr.produto_id = p.produto_id;
 
-2.Que clientes nunca fizeram compras?
+-- 2.Que clientes nunca fizeram compras?
 
 SELECT nome
 FROM clientes c
@@ -15,7 +15,7 @@ LEFT JOIN pedidos p
 ON p.cliente_id = c.cliente_id
 WHERE p.cliente_id IS NULL;
 
-3.Quantos pedidos cada cliente realizou?
+-- 3.Quantos pedidos cada cliente realizou?
 
 SELECT nome, COUNT(pedido_id) as quantidade_pedido
 FROM clientes c
@@ -23,7 +23,7 @@ LEFT JOIN pedidos p
 ON p.cliente_id = c.cliente_id
 GROUP BY nome;
 
-4.Qual é o produto mais caro da loja?
+-- 4.Qual é o produto mais caro da loja?
 
 SELECT produto_nome
 FROM produtos
@@ -33,12 +33,12 @@ WHERE preco =
   From produtos
 );
 
-5.Qual é o preço médio dos produtos?
+-- 5.Qual é o preço médio dos produtos?
 
 SELECT AVG(preco) as preco_medio
 FROM produtos
 
-6.Quais os produtos com preço acima da média?
+-- 6.Quais os produtos com preço acima da média?
 
 SELECT produto_nome
 FROM produtos
@@ -48,7 +48,7 @@ Where preco >
   FROM produtos
 );
 
-7.Quais os clientes que compraram produtos acima da média de preço?
+-- 7.Quais os clientes que compraram produtos acima da média de preço?
 
 SELECT nome
 FROM clientes c
@@ -62,7 +62,7 @@ Where preco >
   FROM produtos
 );
 
-8.Qual cliente gastou mais dinheiro?
+-- 8.Qual cliente gastou mais dinheiro?
 
 SELECT nome
 FROM pedidos p
@@ -81,7 +81,7 @@ HAVING SUM(preco * quantidade) =
     GROUP BY p2.cliente_id )
 );
 
-9.Quanto cada cliente gastou no total?
+-- 9.Quanto cada cliente gastou no total?
 
 SELECT nome, SUM(preco * quantidade) AS dinheiro_gasto
 FROM pedidos p
@@ -91,7 +91,7 @@ INNER JOIN clientes c
 ON c.cliente_id = p.cliente_id
 GROUP BY nome;
 
-10.Quais clientes gastaram acima da média dos clientes?
+-- 10.Quais clientes gastaram acima da média dos clientes?
 
 SELECT nome, SUM(preco * quantidade) AS dinheiro_gasto
 FROM pedidos p
@@ -109,7 +109,7 @@ HAVING dinheiro_gasto >
     GROUP BY p2.cliente_id )
 );
 
-11.Qual categoria vendeu mais produtos?
+-- 11.Qual categoria vendeu mais produtos?
 
 SELECT categoria_nome, SUM(quantidade) as produto_vendido
 FROM categorias c
@@ -128,7 +128,7 @@ HAVING SUM(quantidade) =
   ) 
 );
 
-12.Qual categoria gerou mais faturação?
+-- 12.Qual categoria gerou mais faturação?
 
 SELECT categoria_nome, SUM(quantidade * preco) as faturacao
 FROM categorias c
