@@ -24,6 +24,10 @@ O projeto utiliza quatro tabelas:
 * Pedidos
 * Categorias
 
+ ## Entity Relationship
+
+Clientes → Pedidos → Produtos → Categorias
+
 ## Perguntas de Negócio Respondidas
 
 1. Quais foram os produtos comprados por cada cliente?
