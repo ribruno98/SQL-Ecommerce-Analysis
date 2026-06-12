@@ -24,9 +24,7 @@ O projeto utiliza quatro tabelas:
 * Pedidos
 * Categorias
 
- ## Entity Relationship
-
-Clientes → Pedidos → Produtos → Categorias
+https://github.com/ribruno98/SQL-Ecommerce-Analysis/blob/7c02125eb744a741a275831cf4d6e2365960ffb1/database.sql
 
 ## Perguntas de Negócio Respondidas
 
